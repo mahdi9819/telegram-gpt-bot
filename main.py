@@ -8,8 +8,9 @@ import nest_asyncio
 nest_asyncio.apply()
 
 # گرفتن توکن‌ها از محیط
-TELEGRAM_TOKEN = os.environ["8128126296:AAG1rD9IR7Qc7cDQHIs2fgqtDcmuVPou1kw"]
-OPENAI_API_KEY = os.environ["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"]
+TELEGRAM_TOKEN = os.environ["TELEGRAM_TOKEN"]
+OPENAI_API_KEY = os.environ["OPENAI_API_KEY"]
+
 
 openai.api_key = OPENAI_API_KEY
 
